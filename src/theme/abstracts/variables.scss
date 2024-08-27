@@ -1,0 +1,74 @@
+// Media queries
+$tablet: 768;
+$large: 1024;
+$desktop: 1280;
+
+// SCSS Colors
+$primary: #435585;
+$secondary: #818fb4;
+$success: #36ae7c;
+$danger: #eb5353;
+$white: #fff;
+$black: #2b2b2b;
+
+:root {
+  // Font sizes
+  --fs-xxs: 1rem;
+  --fs-xs: 1.3rem;
+  --fs-md: 1.6rem;
+  --fs-lg: 1.8rem;
+  --fs-xl: 2.1rem;
+  --fs-xxl: 3rem;
+
+  // Font weights
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  // Font families
+  --ff-primary: 'Roboto', 'sans-serif';
+  --ff-secondary: 'Oswald', 'sans-serif';
+
+  // Colors
+  --transparent: rgba(0 0 0 / 0%);
+  --white: #{$white};
+  --black: #{$black};
+  --primary: #{$primary};
+  --primary-hover: #{darken($primary, 10%)};
+  --primary-active: #{darken($primary, 15%)};
+  --primary-disabled: #{mix($primary, $white, 50%)};
+  --secondary: #{$secondary};
+  --secondary-hover: #{darken($secondary, 10%)};
+  --secondary-active: #{darken($secondary, 15%)};
+  --secondary-disabled: #{mix($secondary, $white, 50%)};
+  --success: #{$success};
+  --success-hover: #{darken($success, 10%)};
+  --success-active: #{darken($success, 15%)};
+  --success-disabled: #{mix($success, $white, 50%)};
+  --danger: #{$danger};
+  --danger-hover: #{darken($danger, 10%)};
+  --danger-active: #{darken($danger, 15%)};
+  --danger-disabled: #{mix($danger, $white, 50%)};
+
+  // Times (in ms)
+  --slow: 500ms;
+  --normal: 250ms;
+  --fast: 150ms;
+
+  // Layers
+  --back: -1;
+  --over: 1;
+  --overtop: 100;
+  --z-alert: 200;
+  --z-loading: 300;
+
+  // Opacity
+  --hidden: 0;
+  --unnoticeable: 0.2;
+  --medium: 0.5;
+  --smooth: 0.7;
+  --visible: 1;
+
+  // Blur Value
+  --blur-ratio: 0.5rem;
+}
