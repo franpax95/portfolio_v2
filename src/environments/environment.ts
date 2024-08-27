@@ -1,4 +1,7 @@
+import { Lang } from '@states/lang';
+
 export const environment = {
-  DB_NAME: 'my-database',
-  STORE_NAME: 'my-store'
+  defaults: {
+    lang: Lang.Eng,
+  }
 };
