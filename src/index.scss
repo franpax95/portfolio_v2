@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+// 1. Font families
+@import 'theme/fonts/all';
+
+// 2. Abstracts and variables
+@import 'theme/abstracts/all';
+
+// 3. Import global styles
+@import 'src/theme/global';
+
+// 4. All the basic UI-Kit
+@import 'theme/ui-kit/all';
