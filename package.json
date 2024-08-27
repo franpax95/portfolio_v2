@@ -51,7 +51,7 @@
       "npm run format"
     ],
     "*.(css|scss)": [
-      "npm run lint-styles"
+      "npm run lint:styles"
     ]
   }
 }
