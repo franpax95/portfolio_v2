@@ -18,6 +18,8 @@
       },
       "utilitySelectors": "^\\.u-[a-z]+(?:-[a-z]+)?$"
     },
-    "import-notation": null
+    "import-notation": null,
+    "scss/no-global-function-names": null,
+    "media-query-no-invalid": null
   }
 }
