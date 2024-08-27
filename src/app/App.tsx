@@ -1,11 +1,14 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
+import reactLogo from '../assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.scss';
+import { environment } from '@environments/environment';
 
 function App() {
   // Test comment
   const [count, setCount] = useState(0);
+
+  console.log(environment);
 
   return (
     <>
