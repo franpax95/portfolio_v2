@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import './App.scss';
 
 function App() {
+  // Test comment
   const [count, setCount] = useState(0);
 
   return (
