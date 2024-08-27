@@ -10,9 +10,23 @@
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
+    "allowJs": true,
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": ["./app/*"],
+      "@components/*": ["./app/components/*"],
+      "@contexts/*": ["./app/contexts/*"],
+      "@environments/*": ["./environments/*"],
+      "@interfaces/*": ["./app/interfaces/*"],
+      "@hooks/*": ["./app/hooks/*"],
+      "@lang/*": ["./lang/*"],
+      "@states/*": ["./app/states/*"],
+      "@theme/*": ["./theme/*"],
+      "@utils/*": ["./app/utils/*"]
+    },
 
     /* Linting */
     "strict": true,
