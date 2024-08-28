@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { LanguageContext } from '@contexts/LanguageContext';
+import { LanguageContext, LanguageContextType } from '@contexts/LanguageContext';
 import esp from '@lang/esp';
 import eng from '@lang/eng';
 import deu from '@lang/deu';
@@ -26,7 +26,7 @@ const switchTxt = (
 };
 
 export const useLanguage = (section?: Sections) => {
-  const { lang, ...context } = useContext(LanguageContext) ?? {};
+  const { lang, ...context } = useContext(LanguageContext) as LanguageContextType;
   const spanish = (section ? esp[section] : esp) as unknown as { [key: string]: string };
   const english = (section ? eng[section] : eng) as unknown as { [key: string]: string };
   const deutsche = (section ? deu[section] : deu) as unknown as { [key: string]: string };
@@ -38,6 +38,7 @@ export const useLanguage = (section?: Sections) => {
 
   return {
     ...context,
+    lang,
     txt
   };
 };
