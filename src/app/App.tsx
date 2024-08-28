@@ -6,7 +6,9 @@ function App() {
     <div className="app">
       <Sidebar></Sidebar>
 
-      <div className="app__main">{/** About me */} About me </div>
+      <div className="app__main">
+        <div className="app__section">{/** About me */} About me</div>
+      </div>
     </div>
   );
 }
