@@ -19,6 +19,7 @@ $black: #2b2b2b;
   --fs-lg: 1.8rem;
   --fs-xl: 2.1rem;
   --fs-xxl: 3rem;
+  --fs-icons: 2.6rem;
 
   // Font weights
   --fw-regular: 400;
@@ -71,4 +72,12 @@ $black: #2b2b2b;
 
   // Blur Value
   --blur-ratio: 0.5rem;
+
+  // App measures
+  --app-padding-ver: 5rem;
+  --app-padding-hor: 2rem;
+
+  @media only screen and (min-width: ($tablet * 1px)) {
+    --app-padding-ver: 10rem;
+  }
 }
