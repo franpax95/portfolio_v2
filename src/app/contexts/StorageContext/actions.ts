@@ -2,9 +2,9 @@ import { IStorageActions } from '@interfaces/IStorageActions';
 import { Storage } from '@states/storage';
 
 export const storageActions: IStorageActions = {
-  get: <T>(key: Storage): T => {
+  get: <T>(key: Storage): T | null => {
     const item: string = localStorage.getItem(key) || '';
-    return JSON.parse(item) as T;
+    return !item ? null : (JSON.parse(item) as T);
   },
 
   set: <T>(key: Storage, value: T): void => {
