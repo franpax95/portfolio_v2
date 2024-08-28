@@ -6,7 +6,7 @@ interface StorageProviderProps {
   children: ReactNode;
 }
 
-export const StorageContext = createContext<IStorageActions | undefined>(undefined);
+export const StorageContext = createContext<IStorageActions | null>(null);
 
 export const StorageProvider: React.FC<StorageProviderProps> = ({ children }) => {
   const value = { ...storageActions };

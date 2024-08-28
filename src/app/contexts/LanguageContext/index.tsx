@@ -4,7 +4,7 @@ import { Lang } from '@states/lang';
 import { useStorage } from '@hooks/useStorage';
 import { environment } from '@environments/environment';
 
-interface LanguageContextType {
+export interface LanguageContextType {
   lang: Lang;
   setLang: (t: Lang) => void;
 }
@@ -13,7 +13,7 @@ interface LanguageProviderProps {
   children: ReactNode;
 }
 
-export const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+export const LanguageContext = createContext<LanguageContextType | null>(null);
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
   const storage = useStorage();
