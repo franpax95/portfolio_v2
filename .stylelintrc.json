@@ -20,6 +20,7 @@
     },
     "import-notation": null,
     "scss/no-global-function-names": null,
-    "media-query-no-invalid": null
+    "media-query-no-invalid": null,
+    "max-nesting-depth": 3
   }
 }
