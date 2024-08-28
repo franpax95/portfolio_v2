@@ -2,6 +2,7 @@ import { useLanguage } from '@app/hooks/useLanguage';
 import { Menu } from '../Menu';
 import './styles.scss';
 import { Sections } from '@states/sections';
+import { Footer } from '../Footer';
 
 // export interface SidebarProps {
 //   className: string;
@@ -17,9 +18,11 @@ export const Sidebar = (/*{ className, children }: SidebarProps*/) => {
 
       <h2>{txt.subtitle}</h2>
 
-      <p>{txt.description}</p>
+      <p className="sidebar__desc">{txt.description}</p>
 
       <Menu />
+
+      <Footer />
     </div>
   );
 };
