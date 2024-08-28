@@ -1,0 +1,16 @@
+.toggler {
+  display: flex;
+  gap: 1rem;
+
+  &__btn {
+    background-color: var(--transparent);
+    border: 0;
+    opacity: 0.5;
+    transition: opacity linear var(--normal);
+
+    &:hover,
+    &--active {
+      opacity: 1;
+    }
+  }
+}
