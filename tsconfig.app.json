@@ -23,7 +23,7 @@
       "@interfaces/*": ["./app/interfaces/*"],
       "@hooks/*": ["./app/hooks/*"],
       "@lang/*": ["./lang/*"],
-      "@states/*": ["./app/states/*"],
+      "@states/*": ["./states/*"],
       "@theme/*": ["./theme/*"],
       "@utils/*": ["./app/utils/*"]
     },
