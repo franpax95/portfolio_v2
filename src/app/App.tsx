@@ -1,5 +1,6 @@
 import { Sidebar } from './components/Sidebar';
 import './App.scss';
+import { About } from './components/About';
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       <Sidebar></Sidebar>
 
       <div className="app__main">
-        <div className="app__section">{/** About me */} About me</div>
+        <div className="app__section">
+          <About />
+        </div>
       </div>
     </div>
   );
