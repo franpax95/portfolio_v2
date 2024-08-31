@@ -1,14 +1,8 @@
-// import { useLanguage } from '@hooks/useLanguage';
-// import { Sections } from '@states/sections';
 import './styles.scss';
 import { IProject } from '@interfaces/IProject';
 import { ProjectsTable } from '../ProjectsTable';
 
-// const esail1_techs = ['sass', 'typescript', 'angular', 'react', 'laravel', 'java', 'ionic', 'git'];
-// const kubide_techs = ['sass', 'typescript', 'angular', 'next', 'ionic', 'docker', 'git', 'node'];
-// const esail2_techs = ['sass', 'typescript', 'angular', 'git'];
-
-const esail = 'ESAIL IT SOLUTIONS';
+const esail = 'Esail';
 const kubide = 'Kubide';
 
 const projects: Array<IProject> = [
@@ -81,8 +75,6 @@ const projects: Array<IProject> = [
 ];
 
 export const Projects = () => {
-  // const { txt } = useLanguage(Sections.Experience);
-
   return (
     <div className="projects">
       <ProjectsTable projects={projects} />
