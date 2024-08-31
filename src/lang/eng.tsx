@@ -44,5 +44,6 @@ export default {
       'I can attest to his responsability and competence in his work, as well as his teamwork and integration within the team, mainly working as a computer programmer. I believe that Francisco will be able to fulfill the assigned tasks, and that is why I recommend him.',
     eduardoBernabe_desc:
       'Francisco is an expert in web application development using technologies such as Angular and React. His deep knowledge of these frameworks is reflected in the successful projects he has delivered during his time at our company. He is capable of creating interactive and engaging applications that significantly enhance the user experience, effectively resolving all the functionalities he has worked on.'
-  }
+  },
+  [Sections.Projects]: {}
 };

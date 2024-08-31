@@ -44,5 +44,6 @@ export default {
       'Ich kann seine Verantwortungsbewusstsein und Kompetenz in seiner Arbeit bestätigen, ebenso wie seine Teamfähigkeit und Integration in das Team, hauptsächlich in seiner Rolle als Computerprogrammierer. Ich glaube, dass Francisco in der Lage sein wird, die ihm zugewiesenen Aufgaben zu erfüllen, und deshalb empfehle ich ihn.',
     eduardoBernabe_desc:
       'Francisco ist ein Experte in der Entwicklung von Webanwendungen unter Verwendung von Technologien wie Angular und React. Sein tiefes Wissen über diese Frameworks spiegelt sich in den erfolgreichen Projekten wider, die er während seiner Zeit in unserem Unternehmen umgesetzt hat. Er ist in der Lage, interaktive und ansprechende Anwendungen zu erstellen, die die Benutzererfahrung erheblich verbessern und alle Funktionalitäten, an denen er gearbeitet hat, effektiv lösen.'
-  }
+  },
+  [Sections.Projects]: {}
 };

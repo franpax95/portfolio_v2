@@ -43,5 +43,6 @@ export default {
       'Puedo dar fe de su responsabilidad y competencia en su trabajo, así como de su capacidad para trabajar en equipo e integrarse dentro del grupo, principalmente trabajando como programador informático. Creo que Francisco será capaz de cumplir con las tareas asignadas, y por eso lo recomiendo.',
     eduardoBernabe_desc:
       'Francisco es un experto en el desarrollo de aplicaciones web utilizando tecnologías como Angular y React. Su profundo conocimiento de estos marcos de trabajo se refleja en los proyectos exitosos que ha ejecutado durante su tiempo en nuestra empresa. Es capaz de crear aplicaciones interactivas y atractivas que mejoran significativamente la experiencia del usuario, resolviendo de manera efectiva todas las funcionalidades en las que ha trabajado.'
-  }
+  },
+  [Sections.Projects]: {}
 };
