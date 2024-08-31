@@ -1,0 +1,52 @@
+.projects-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &__header,
+  &__row {
+    align-items: center;
+    backdrop-filter: blur(0.4rem);
+    background: rgb(255 255 255 / 5%);
+    border: 0.1rem solid rgb(255 255 255 / 18%);
+    border-radius: 0.1rem;
+    box-shadow: 0 0.8rem 3.2rem 0 rgb(31 38 135 / 37%);
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 5rem 2.5fr 1fr 4fr;
+    margin-bottom: 1rem;
+    min-height: 9rem;
+    padding: 1rem 0.5rem;
+    transition: background-color var(--normal);
+  }
+
+  &__row:hover {
+    background: rgb(255 255 255 / 15%);
+  }
+
+  &__row:last-of-type {
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  &__col {
+    max-width: 100%;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &--stack {
+      display: grid;
+      gap: 0.15rem;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+  }
+
+  &__header {
+    border-radius: 1rem 1rem 0 0;
+
+    .projects-table__col {
+      font-weight: bold;
+    }
+  }
+}
