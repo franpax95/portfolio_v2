@@ -13,11 +13,10 @@ export default {
   },
   [Sections.About]: {
     first:
-      "My name is Francisco Javier Navarro García, and I am a Frontend Developer with four years of experience in the industry. Originally from Málaga, I took the leap to Madrid, the capital of Spain, where I continued to hone my skills and advance my career. Now, I am ready for my next challenge: seeking opportunities beyond Spain's borders. My passion lies in web technology, where I am always eager to explore and experiment with new tools and stay up to date with the latest trends.",
+      'Originario de la Costa del Sol, Málaga, empecé mi camino en mi ciudad, en Esail. Después, di el salto a la capital de España, Madrid, en Kubide. Y ahora estoy buscando el siguiente reto fuera de mis fronteras. Soy una persona proactiva que siempre busca el bien común, entendiendo que no existe éxito personal sin el éxito laboral, y viceversa. Por lo que la implicación no es negociable. Y si puedo usar mis conocimientos para ayudar internamente, tanto en formaciones a compañeros como en el desarrollo de aplicaciones a nivel interno, estoy más que dispuesto.',
     second:
-      'I have a particular affinity for CSS and UI/UX design, with a special interest in animations and transitions. Professionally, I have extensive experience with Angular, having worked with it from its early days as AngularJS through to the latest versions (v16+). However, my favourite framework has always been React. I started using it back when class components were the norm, and have since embraced the shift towards functional components in the more recent versions (v16.8+). React is my go-to choice for personal projects, where I often experiment with tools like styled-components. Additionally, I have developed cross-platform applications using Ionic, from its Cordova days to the newer Capacitor, and I have plenty of stories about my battles with Android Studio!',
-    third:
-      'In the backend realm, my journey began with PHP and the CodeIgniter framework during my university years, eventually adopting Laravel as my preferred solution for full-stack projects. I have experience implementing my own RESTful APIs and managing databases like MySQL and PostgreSQL. I have also tackled the challenges of developing Single Page Applications, including features like Service Workers, and I am well-versed in SSR with frameworks like Next.js, as well as dependency bundlers such as Webpack and Vite. I strive to apply SOLID principles wherever possible and am always on the lookout for new practices to refine my craft. In the workplace, I am known for being friendly and humorous, yet also responsible and dedicated. Wherever I go, I always leave with fond memories and lasting friendships, as I believe that professional success and personal fulfilment are deeply intertwined, and I commit fully to every team I join.'
+      'En el ambiente laboral, soy una persona amigable y divertida, buscando siempre el buen rollo. Siempre me he llevado amigos de los trabajos en los que he estado. Y aunque siempre he sido muy programador, tengo que reconocer que cada vez me llama más la idea de organizar y gestionar equipos y fomentar en la cultura de trabajo.',
+    third: `En cuanto a mis conocimientos, profesionalmente tengo una extensa experiencia en Angular. Sin embargo, mi framework favorito siempre será React o soluciones basadas como Next para el SSR. Siempre que tengo la ocasión lo elijo como mi primera opción, tanto en proyectos personales como corporativos. \nEn cuanto a mobile, he desarrollado aplicaciones cross-platform con Ionic, tanto en Android como en iOS, desde el antiguo Cordova hasta el nuevo Capacitor. \nEn el territorio Backend, me gusta desarrollar mis soluciones en Laravel (PHP), con MySQL o PostgreSQL. Pero también tengo experiencia con aplicaciones hechas en Node. \nAntes Webpack, pero ahora Vite se ha convertido en mi opción como empaquetador.`
   },
   [Sections.Experience]: {
     esail1_title: 'ESAIL IT SOLUTIONS',
@@ -38,5 +37,11 @@ export default {
     project: 'Proyecto',
     madeAt: 'Hecho en',
     technologies: 'Tecnologías'
+  },
+  [Sections.Recognitions]: {
+    rocioLanzas_desc:
+      'Puedo dar fe de su responsabilidad y competencia en su trabajo, así como de su capacidad para trabajar en equipo e integrarse dentro del grupo, principalmente trabajando como programador informático. Creo que Francisco será capaz de cumplir con las tareas asignadas, y por eso lo recomiendo.',
+    eduardoBernabe_desc:
+      'Francisco es un experto en el desarrollo de aplicaciones web utilizando tecnologías como Angular y React. Su profundo conocimiento de estos marcos de trabajo se refleja en los proyectos exitosos que ha ejecutado durante su tiempo en nuestra empresa. Es capaz de crear aplicaciones interactivas y atractivas que mejoran significativamente la experiencia del usuario, resolviendo de manera efectiva todas las funcionalidades en las que ha trabajado.'
   }
 };

@@ -13,11 +13,11 @@ export default {
   },
   [Sections.About]: {
     first:
-      "My name is Francisco Javier Navarro García, and I am a Frontend Developer with four years of experience in the industry. Originally from Málaga, I took the leap to Madrid, the capital of Spain, where I continued to hone my skills and advance my career. Now, I am ready for my next challenge: seeking opportunities beyond Spain's borders. My passion lies in web technology, where I am always eager to explore and experiment with new tools and stay up to date with the latest trends.",
+      'Ursprünglich von der Costa del Sol, Málaga, begann ich meinen Weg in meiner Heimatstadt bei Esail. Danach wagte ich den Sprung in die Hauptstadt Spaniens, Madrid, zu Kubide. Jetzt suche ich nach der nächsten Herausforderung jenseits meiner Grenzen. Ich bin eine proaktive Person, die stets das Gemeinwohl anstrebt und versteht, dass es keinen persönlichen Erfolg ohne beruflichen Erfolg gibt, und umgekehrt. Daher ist Engagement nicht verhandelbar. Wenn ich mein Wissen intern einsetzen kann, sei es durch Schulungen für Kollegen oder die Entwicklung interner Anwendungen, bin ich mehr als bereit dazu.',
     second:
-      'I have a particular affinity for CSS and UI/UX design, with a special interest in animations and transitions. Professionally, I have extensive experience with Angular, having worked with it from its early days as AngularJS through to the latest versions (v16+). However, my favourite framework has always been React. I started using it back when class components were the norm, and have since embraced the shift towards functional components in the more recent versions (v16.8+). React is my go-to choice for personal projects, where I often experiment with tools like styled-components. Additionally, I have developed cross-platform applications using Ionic, from its Cordova days to the newer Capacitor, and I have plenty of stories about my battles with Android Studio!',
+      'Am Arbeitsplatz bin ich eine freundliche und lustige Person, die stets eine positive Atmosphäre schafft. Ich habe in allen meinen bisherigen Jobs Freundschaften geschlossen. Und obwohl ich schon immer sehr programmieraffin war, muss ich zugeben, dass mich die Idee, Teams zu organisieren und zu leiten und eine starke Arbeitskultur zu fördern, zunehmend reizt.',
     third:
-      'In the backend realm, my journey began with PHP and the CodeIgniter framework during my university years, eventually adopting Laravel as my preferred solution for full-stack projects. I have experience implementing my own RESTful APIs and managing databases like MySQL and PostgreSQL. I have also tackled the challenges of developing Single Page Applications, including features like Service Workers, and I am well-versed in SSR with frameworks like Next.js, as well as dependency bundlers such as Webpack and Vite. I strive to apply SOLID principles wherever possible and am always on the lookout for new practices to refine my craft. In the workplace, I am known for being friendly and humorous, yet also responsible and dedicated. Wherever I go, I always leave with fond memories and lasting friendships, as I believe that professional success and personal fulfilment are deeply intertwined, and I commit fully to every team I join.'
+      'Was meine Kenntnisse betrifft, so habe ich beruflich umfangreiche Erfahrung mit Angular. Mein Lieblings-Framework wird jedoch immer React oder darauf basierende Lösungen wie Next für SSR sein. Wann immer ich die Gelegenheit habe, wähle ich es als meine erste Option, sowohl für persönliche als auch für Unternehmensprojekte. \nIm mobilen Bereich habe ich plattformübergreifende Anwendungen mit Ionic entwickelt, sowohl auf Android als auch auf iOS, vom alten Cordova bis hin zum neuen Capacitor. \nIm Backend-Bereich entwickle ich meine Lösungen gerne in Laravel (PHP) mit MySQL oder PostgreSQL. Aber ich habe auch Erfahrung mit Anwendungen, die in Node gebaut sind. \nFrüher Webpack, aber jetzt ist Vite mein bevorzugter Bundler geworden.'
   },
   [Sections.Experience]: {
     esail1_title: 'ESAIL IT SOLUTIONS',
@@ -34,9 +34,15 @@ export default {
     esail2_duration: 'November 2023 - July 2024'
   },
   [Sections.ProjectsTable]: {
-    year: 'Año',
-    project: 'Proyecto',
-    madeAt: 'Hecho en',
-    technologies: 'Tecnologías'
+    year: 'Jahr',
+    project: 'Projekt',
+    madeAt: 'Gemacht in',
+    technologies: 'Technologien'
+  },
+  [Sections.Recognitions]: {
+    rocioLanzas_desc:
+      'Ich kann seine Verantwortungsbewusstsein und Kompetenz in seiner Arbeit bestätigen, ebenso wie seine Teamfähigkeit und Integration in das Team, hauptsächlich in seiner Rolle als Computerprogrammierer. Ich glaube, dass Francisco in der Lage sein wird, die ihm zugewiesenen Aufgaben zu erfüllen, und deshalb empfehle ich ihn.',
+    eduardoBernabe_desc:
+      'Francisco ist ein Experte in der Entwicklung von Webanwendungen unter Verwendung von Technologien wie Angular und React. Sein tiefes Wissen über diese Frameworks spiegelt sich in den erfolgreichen Projekten wider, die er während seiner Zeit in unserem Unternehmen umgesetzt hat. Er ist in der Lage, interaktive und ansprechende Anwendungen zu erstellen, die die Benutzererfahrung erheblich verbessern und alle Funktionalitäten, an denen er gearbeitet hat, effektiv lösen.'
   }
 };
