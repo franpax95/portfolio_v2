@@ -4,7 +4,7 @@
   gap: 2rem;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 110rem;
+  max-width: 120rem;
   padding: var(--app-padding-ver) var(--app-padding-hor);
   position: relative;
 
@@ -22,11 +22,12 @@
     flex-direction: column;
     gap: 2rem;
     height: 100%;
-    max-width: 52.5rem;
+    max-width: 65rem;
     width: 100%;
   }
 
   &__section {
-    min-height: 400vh;
+    // min-height: 400vh;
+    margin-bottom: 10rem;
   }
 }
