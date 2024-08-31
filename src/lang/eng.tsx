@@ -18,5 +18,25 @@ export default {
       'I have a particular affinity for CSS and UI/UX design, with a special interest in animations and transitions. Professionally, I have extensive experience with Angular, having worked with it from its early days as AngularJS through to the latest versions (v16+). However, my favourite framework has always been React. I started using it back when class components were the norm, and have since embraced the shift towards functional components in the more recent versions (v16.8+). React is my go-to choice for personal projects, where I often experiment with tools like styled-components. Additionally, I have developed cross-platform applications using Ionic, from its Cordova days to the newer Capacitor, and I have plenty of stories about my battles with Android Studio!',
     third:
       'In the backend realm, my journey began with PHP and the CodeIgniter framework during my university years, eventually adopting Laravel as my preferred solution for full-stack projects. I have experience implementing my own RESTful APIs and managing databases like MySQL and PostgreSQL. I have also tackled the challenges of developing Single Page Applications, including features like Service Workers, and I am well-versed in SSR with frameworks like Next.js, as well as dependency bundlers such as Webpack and Vite. I strive to apply SOLID principles wherever possible and am always on the lookout for new practices to refine my craft. In the workplace, I am known for being friendly and humorous, yet also responsible and dedicated. Wherever I go, I always leave with fond memories and lasting friendships, as I believe that professional success and personal fulfilment are deeply intertwined, and I commit fully to every team I join.'
+  },
+  [Sections.Experience]: {
+    esail1_title: 'ESAIL IT SOLUTIONS',
+    esail1_subtitle: 'Fullstack Web Developer',
+    esail1_desc: `In my first role at ESAIL IT Solutions, I developed solutions primarily using Angular and Ionic, handling projects from initial analysis through to final documentation, within a Kanban-driven workflow. I also initiated and developed internal projects in React. My responsibilities included direct client communication, onboarding and training new team members, and promoting the adoption of new technologies and best practices.`,
+    esail1_duration: 'December 2020 - May 2023',
+    kubide_title: 'Kubide',
+    kubide_subtitle: 'Frontend Web Developer',
+    kubide_desc: `At Kubide, I focused on developing cross-platform applications using Ionic Angular and contributed to projects in Next.js (React). Organised under the SCRUM agile methodology, I played a key role in performance optimisation and enhancing solutions, with a particular emphasis on improving user interfaces and overall user experience.`,
+    kubide_duration: 'May 2023 - November 2023',
+    esail2_title: 'ESAIL IT SOLUTIONS',
+    esail2_subtitle: 'Frontend Web Developer',
+    esail2_desc: `At ESAIL IT Solutions, I led the Front-End team, focusing primarily on projects developed with Angular. My responsibilities included overseeing the quality control of my team's code and ensuring it met high standards. I implemented new work methodologies and technologies to enhance productivity and foster a collaborative work culture, with a strong emphasis on Kanban for organisational efficiency. Additionally, I was involved in onboarding and training new team members, ensuring they integrated smoothly and developed the necessary skills. I also contributed to project analysis, playing a vital role in the strategic planning and execution of our development projects.`,
+    esail2_duration: 'November 2023 - July 2024'
+  },
+  [Sections.ProjectsTable]: {
+    year: 'Año',
+    project: 'Proyecto',
+    madeAt: 'Hecho en',
+    technologies: 'Tecnologías'
   }
 };
