@@ -3,6 +3,7 @@ import './App.scss';
 import { About } from './components/About';
 import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
+import { Recognitions } from './components/Recognitions';
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
 
         <div className="app__section">
           <Projects />
+        </div>
+
+        <div className="app__section">
+          <Recognitions />
         </div>
       </div>
     </div>
