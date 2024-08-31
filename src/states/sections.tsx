@@ -4,5 +4,6 @@ export enum Sections {
   About = 'about',
   Experience = 'experience',
   Projects = 'projects',
-  ProjectsTable = 'projects_table'
+  ProjectsTable = 'projects_table',
+  Recognitions = 'recognitions'
 }
