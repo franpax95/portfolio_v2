@@ -21,6 +21,7 @@ export const Toggler = <T,>({ className, data, active, onClick }: TogglerProps<T
     <div className={`toggler ${className ?? ''}`}>
       {data.map((el) => (
         <button
+          key={`${el.id}`}
           className={`toggler__btn ${el.id === active ? 'toggler__btn--active' : ''}`}
           onClick={() => clicked(el.id)}
         >
