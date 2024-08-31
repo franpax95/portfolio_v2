@@ -1,0 +1,47 @@
+.tech-badge {
+  // gap: 1rem;
+  align-items: center;
+  background-color: rgb(255 255 255 / 15%);
+  border: solid 0.2rem var(--color);
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 25px -15px var(--color);
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  grid-template-rows: 100%;
+  height: 3.5rem;
+  justify-content: center;
+  max-width: 20rem;
+  overflow: hidden;
+  transition: background-color var(--normal);
+
+  &:hover {
+    background-color: rgb(255 255 255 / 25%);
+  }
+
+  &__img-wrapper {
+    align-items: center;
+    background-color: rgb(255 255 255 / 30%);
+    display: flex;
+    // width: 5rem;
+    height: 100%;
+    justify-content: center;
+    padding: 0.6rem;
+  }
+
+  &__img {
+    max-height: 100%;
+    max-width: 100%;
+    // padding: 0.75rem;
+    object-fit: contain;
+  }
+
+  &__legend {
+    font-size: var(--fs-sm);
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 0.75rem;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    white-space: nowrap;
+  }
+}
