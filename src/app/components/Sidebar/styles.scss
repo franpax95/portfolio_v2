@@ -14,6 +14,28 @@
     width: 40vw;
   }
 
+  &__title,
+  &__subtitle,
+  &__desc {
+    text-align: left;
+  }
+
+  &__img-wrapper {
+    align-items: center;
+    display: flex;
+    height: 15rem;
+    justify-content: center;
+    overflow: hidden;
+    width: 15rem;
+  }
+
+  &__img {
+    border-radius: 1rem;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
   &__desc {
     margin-bottom: 5rem;
   }
