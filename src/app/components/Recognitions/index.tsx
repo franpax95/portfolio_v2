@@ -9,18 +9,18 @@ import { MainAnchor } from '../MainAnchor';
 const eduardoRecommendation: IRecommendationCard = {
   name: 'Eduardo Bernabé',
   role: 'Chief Operations Officer',
-  avatar: '/src/assets/recommendations/eduardo_bernabe.jpg',
+  avatar: '/recommendations/eduardo_bernabe.jpg',
   desc: '',
-  pdf: '/src/assets/recommendations/EduardoBernabe_Recommendation.pdf',
+  pdf: '/recommendations/EduardoBernabe_Recommendation.pdf',
   linkedin: 'https://www.linkedin.com/in/edubernabe/'
 };
 
 const rocioRecommendation: IRecommendationCard = {
   name: 'Rocío Lanzas',
   role: 'Director of Human Resources',
-  avatar: '/src/assets/recommendations/rocio_lanzas.jpg',
+  avatar: '/recommendations/rocio_lanzas.jpg',
   desc: '',
-  pdf: '/src/assets/recommendations/RocioLanzas_Recommendation.pdf',
+  pdf: '/recommendations/RocioLanzas_Recommendation.pdf',
   linkedin: 'https://www.linkedin.com/in/rociobelenlanzaszambrana/'
 };
 
@@ -52,7 +52,7 @@ export const Recognitions = () => {
       </div>
 
       <div className="recognitions__curriculum-link">
-        <MainAnchor href="/src/assets/cv/FJNG_CV_2024.pdf" target="_blank">
+        <MainAnchor href="/cv/FJNG_CV_2024.pdf" target="_blank">
           Ver Curriculum Vitae
         </MainAnchor>
       </div>

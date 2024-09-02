@@ -10,7 +10,7 @@ export const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar__img-wrapper">
-        <img className="sidebar__img" src="/src/assets/me/me-jumping-swimmingpool.jpg" alt="Me" />
+        <img className="sidebar__img" src="/me/me-jumping-swimmingpool.jpg" alt="Me" />
       </div>
       <h1 className="sidebar__title">{txt.title}</h1>
 

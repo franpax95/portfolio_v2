@@ -1,21 +1,21 @@
 import { useState } from 'react';
 import './styles.scss';
 
-import htmlLogo from '../../../assets/tech/html.svg';
-import cssLogo from '../../../assets/tech/css.svg';
-import sassLogo from '../../../assets/tech/sass.svg';
-import jsLogo from '../../../assets/tech/javascript.svg';
-import tsLogo from '../../../assets/tech/typescript.svg';
-import angularLogo from '../../../assets/tech/angular.svg';
-import reactLogo from '../../../assets/tech/react.svg';
-import nextLogo from '../../../assets/tech/next.svg';
-import ionicLogo from '../../../assets/tech/ionic.svg';
-import phpLogo from '../../../assets/tech/php.svg';
-import laravelLogo from '../../../assets/tech/laravel.svg';
-import javaLogo from '../../../assets/tech/java.svg';
-import nodeLogo from '../../../assets/tech/node.svg';
-import gitLogo from '../../../assets/tech/git.svg';
-import dockerLogo from '../../../assets/tech/docker.svg';
+import htmlLogo from '/tech/html.svg';
+import cssLogo from '/tech/css.svg';
+import sassLogo from '/tech/sass.svg';
+import jsLogo from '/tech/javascript.svg';
+import tsLogo from '/tech/typescript.svg';
+import angularLogo from '/tech/angular.svg';
+import reactLogo from '/tech/react.svg';
+import nextLogo from '/tech/next.svg';
+import ionicLogo from '/tech/ionic.svg';
+import phpLogo from '/tech/php.svg';
+import laravelLogo from '/tech/laravel.svg';
+import javaLogo from '/tech/java.svg';
+import nodeLogo from '/tech/node.svg';
+import gitLogo from '/tech/git.svg';
+import dockerLogo from '/tech/docker.svg';
 
 const technologies: { [key: string]: { src: string; color: string } } = {
   html: {
