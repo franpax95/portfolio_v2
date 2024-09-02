@@ -1,3 +1,4 @@
+import './styles.scss';
 import { useLanguage } from '@hooks/useLanguage';
 import { Sections } from '@states/sections';
 import { ExperienceCard } from '../ExperienceCard';
