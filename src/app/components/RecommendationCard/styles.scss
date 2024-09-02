@@ -24,11 +24,13 @@
     width: 100%;
   }
 
-  &:hover {
-    cursor: pointer;
-
-    &::before {
-      opacity: 1;
+  @include tablet {
+    &:hover {
+      cursor: pointer;
+  
+      &::before {
+        opacity: 1;
+      }
     }
   }
 
