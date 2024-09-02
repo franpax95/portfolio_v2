@@ -12,16 +12,6 @@
   transition: all var(--normal);
   width: calc(100% - 4rem);
 
-  &:not(:last-of-type)::after {
-    background-color: var(--white);
-    content: '';
-    height: 90%;
-    left: -1.6rem;
-    position: absolute;
-    top: 5.3rem;
-    width: 0.15rem;
-  }
-
   &::before {
     background-color: var(--white);
     border-radius: 50rem;
@@ -31,6 +21,16 @@
     position: absolute;
     top: 2.85rem;
     width: 0.9rem;
+  }
+
+  &:not(:last-of-type)::after {
+    background-color: var(--white);
+    content: '';
+    height: 90%;
+    left: -1.6rem;
+    position: absolute;
+    top: 6.2rem;
+    width: 0.15rem;
   }
 
   > * {
@@ -64,6 +64,12 @@
     width: 100%;
   }
 
+  @include mobile {
+    &:not(:last-of-type)::after {
+      top: 5.5rem;
+    }
+  }
+
   @include tablet {
     &:hover {
       backdrop-filter: blur(0.95rem);
@@ -71,6 +77,10 @@
       border-color: rgb(255 255 255 / 18%);
       box-shadow: 0 0.8rem 3.2rem 0 rgb(31 38 135 / 37%);
       cursor: pointer;
+    }
+
+    &:not(:last-of-type)::after {
+      top: 5.3rem;
     }
 
     &__subtitle {
