@@ -4,7 +4,8 @@ export default {
   [Sections.Sidebar]: {
     title: 'Francisco Navarro',
     subtitle: 'Desarrollador Frontend',
-    description: 'Construyo páginas'
+    description:
+      'Creando experiencias digitales con píxeles y código, donde el diseño se encuentra con la interacción.'
   },
   [Sections.Menu]: {
     about: 'Sobre mí',
@@ -22,16 +23,16 @@ export default {
   [Sections.Experience]: {
     esail1_title: 'ESAIL IT SOLUTIONS',
     esail1_subtitle: 'Fullstack Web Developer',
-    esail1_desc: `In my first role at ESAIL IT Solutions, I developed solutions primarily using Angular and Ionic, handling projects from initial analysis through to final documentation, within a Kanban-driven workflow. I also initiated and developed internal projects in React. My responsibilities included direct client communication, onboarding and training new team members, and promoting the adoption of new technologies and best practices.`,
-    esail1_duration: 'December 2020 - May 2023',
+    esail1_desc: `En mi primer puesto en ESAIL IT Solutions, desarrollé soluciones principalmente utilizando Angular e Ionic, gestionando proyectos desde el análisis inicial hasta la documentación final, dentro de un flujo de trabajo impulsado por Kanban. También inicié y desarrollé proyectos internos en React. Mis responsabilidades incluían la comunicación directa con los clientes, la incorporación y formación de nuevos miembros del equipo, y la promoción de la adopción de nuevas tecnologías y mejores prácticas.`,
+    esail1_duration: 'Diciembre 2020 - Mayo 2023',
     kubide_title: 'Kubide',
     kubide_subtitle: 'Frontend Web Developer',
-    kubide_desc: `At Kubide, I focused on developing cross-platform applications using Ionic Angular and contributed to projects in Next.js (React). Organised under the SCRUM agile methodology, I played a key role in performance optimisation and enhancing solutions, with a particular emphasis on improving user interfaces and overall user experience.`,
-    kubide_duration: 'May 2023 - November 2023',
+    kubide_desc: `En Kubide, me enfoqué en desarrollar aplicaciones multiplataforma utilizando Ionic Angular y contribuí a proyectos en Next.js (React). Organizado bajo la metodología ágil SCRUM, desempeñé un papel clave en la optimización del rendimiento y la mejora de soluciones, con un énfasis particular en mejorar las interfaces de usuario y la experiencia general del usuario.`,
+    kubide_duration: 'Mayo 2023 - Noviembre 2023',
     esail2_title: 'ESAIL IT SOLUTIONS',
     esail2_subtitle: 'Frontend Web Developer',
-    esail2_desc: `At ESAIL IT Solutions, I led the Front-End team, focusing primarily on projects developed with Angular. My responsibilities included overseeing the quality control of my team's code and ensuring it met high standards. I implemented new work methodologies and technologies to enhance productivity and foster a collaborative work culture, with a strong emphasis on Kanban for organisational efficiency. Additionally, I was involved in onboarding and training new team members, ensuring they integrated smoothly and developed the necessary skills. I also contributed to project analysis, playing a vital role in the strategic planning and execution of our development projects.`,
-    esail2_duration: 'November 2023 - July 2024'
+    esail2_desc: `En ESAIL IT Solutions, lideré el equipo de Front-End, enfocándome principalmente en proyectos desarrollados con Angular. Mis responsabilidades incluían supervisar el control de calidad del código de mi equipo y asegurarme de que cumpliera con altos estándares. Implementé nuevas metodologías de trabajo y tecnologías para mejorar la productividad y fomentar una cultura de trabajo colaborativa, con un fuerte énfasis en Kanban para la eficiencia organizativa. Además, participé en la incorporación y capacitación de nuevos miembros del equipo, asegurando que se integraran sin problemas y desarrollaran las habilidades necesarias. También contribuí al análisis de proyectos, desempeñando un papel vital en la planificación estratégica y la ejecución de nuestros proyectos de desarrollo.`,
+    esail2_duration: 'Noviembre 2023 - Julio 2024'
   },
   [Sections.ProjectsTable]: {
     year: 'Año',
