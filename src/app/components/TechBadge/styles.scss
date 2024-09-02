@@ -14,8 +14,10 @@
   overflow: hidden;
   transition: background-color var(--normal);
 
-  &:hover {
-    background-color: rgb(255 255 255 / 25%);
+  @include tablet {
+    &:hover {
+      background-color: rgb(255 255 255 / 25%);
+    }
   }
 
   &__img-wrapper {
