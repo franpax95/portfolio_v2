@@ -99,6 +99,12 @@
  *      }
  *    }
  */
+@mixin mobile {
+  @media only screen and (min-width: ($mobile * 1px)) {
+    @content;
+  }
+}
+
 @mixin tablet {
   @media only screen and (min-width: ($tablet * 1px)) {
     @content;
