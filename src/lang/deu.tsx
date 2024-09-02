@@ -7,9 +7,10 @@ export default {
     description: 'I build pixel-perfect, engaging, and accessible digital experiences.'
   },
   [Sections.Menu]: {
-    about: 'About',
-    experience: 'Experience',
-    projects: 'Projects'
+    about: 'Um',
+    experience: 'Erfahrung',
+    projects: 'Projekte',
+    recognitions: 'Anerkennungen'
   },
   [Sections.About]: {
     first:

@@ -9,7 +9,8 @@ export default {
   [Sections.Menu]: {
     about: 'About',
     experience: 'Experience',
-    projects: 'Projects'
+    projects: 'Projects',
+    recognitions: 'Recognitions'
   },
   [Sections.About]: {
     first:
