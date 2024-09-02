@@ -13,7 +13,7 @@
     display: flex;
     font-family: var(--ff-secondary);
     font-size: var(--fs-xl);
-    height: 6rem;
+    height: 5rem;
     justify-content: flex-start;
     letter-spacing: 0.25rem;
     position: relative;
@@ -21,7 +21,7 @@
 
   &__link::before {
     background-color: var(--white);
-    bottom: 1rem;
+    bottom: 0.5rem;
     content: '';
     height: 0.2rem;
     left: 0;
