@@ -33,7 +33,7 @@ export const ProjectsTable = ({ projects }: ProjectsTableProps) => {
           </div>
           <div className="projects-table__col projects-table__col--stack">
             {project.stack.map((tech) => (
-              <TechBadge tech={tech} />
+              <TechBadge key={tech} tech={tech} />
             ))}
           </div>
         </div>
