@@ -53,7 +53,7 @@ export const Recognitions = () => {
 
       <div className="recognitions__curriculum-link">
         <MainAnchor href="/cv/FJNG_CV_2024.pdf" target="_blank">
-          Ver Curriculum Vitae
+          {txt.seeCV}
         </MainAnchor>
       </div>
     </div>
