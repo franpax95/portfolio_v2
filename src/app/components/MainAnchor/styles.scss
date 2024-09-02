@@ -34,7 +34,6 @@
 
   &__link-title-1 {
     transform-origin: right center;
-
   }
 
   &__link-title-2 {
@@ -51,44 +50,46 @@
     height: calc(var(--size) * 1.75);
     justify-content: center;
     margin-left: calc(var(--size) / 2);
-  
+
     /*  Remove overflow to see how it works　:) */
     overflow: hidden;
     position: relative;
     width: 35px;
     width: calc(var(--size) * 1.75);
   }
-  
+
   &__icon {
     display: block;
     position: absolute;
     transition: transform 0.4s ease;
   }
-  
+
   &__icon:nth-child(2) {
     transform: translate(calc(var(--size) * (-2)));
   }
 
-  /* Move up two texts (20px = font-size) */
-  &:hover .main-anchor__link-container {
-    transform: translateY(calc(var(--size) * (-1)));
-  }
+  @include tablet {
+    /* Move up two texts (20px = font-size) */
+    &:hover .main-anchor__link-container {
+      transform: translateY(calc(var(--size) * (-1)));
+    }
 
-  /* Rotate texts a little bit */
-  &:hover .main-anchor__link-title1 {
-    transform: rotate(20deg) translateY(calc(var(--size) * (-1.5)));
-  }
+    /* Rotate texts a little bit */
+    &:hover .main-anchor__link-title1 {
+      transform: rotate(20deg) translateY(calc(var(--size) * (-1.5)));
+    }
 
-  &:hover .main-anchor__link-title2 {
-    transform: rotate(0);
-  }
+    &:hover .main-anchor__link-title2 {
+      transform: rotate(0);
+    }
 
-  /* Move arrows to right */
-  &:hover .main-anchor__icon:first-child {
-    transform: translate(calc(var(--size) * 2));
-  }
+    /* Move arrows to right */
+    &:hover .main-anchor__icon:first-child {
+      transform: translate(calc(var(--size) * 2));
+    }
 
-  &:hover .main-anchor__icon:nth-child(2) {
-    transform: translate(0);
+    &:hover .main-anchor__icon:nth-child(2) {
+      transform: translate(0);
+    }
   }
 }
