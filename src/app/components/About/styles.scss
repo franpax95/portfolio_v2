@@ -1,13 +1,18 @@
 .about {
   margin-top: 2rem;
+  // display: none;
+
+  &__paragraph {
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+    white-space: pre-wrap;
+  }
 
   @include tablet {
     margin-top: 0;
-  }
 
-  &__paragraph {
-    font-size: var(--fs-md);
-    line-height: 1.5;
-    white-space: pre-wrap;
+    &__paragraph {
+      font-size: var(--fs-md);
+    }
   }
 }
