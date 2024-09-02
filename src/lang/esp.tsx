@@ -41,6 +41,7 @@ export default {
     technologies: 'Tecnologías'
   },
   [Sections.Recognitions]: {
+    seeCV: 'Ver Currículum Vitae',
     rocioLanzas_desc:
       'Puedo dar fe de su responsabilidad y competencia en su trabajo, así como de su capacidad para trabajar en equipo e integrarse dentro del grupo, principalmente trabajando como programador informático. Creo que Francisco será capaz de cumplir con las tareas asignadas, y por eso lo recomiendo.',
     eduardoBernabe_desc:

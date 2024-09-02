@@ -42,6 +42,7 @@ export default {
     technologies: 'Technologien'
   },
   [Sections.Recognitions]: {
+    seeCV: 'Lebenslauf ansehen',
     rocioLanzas_desc:
       'Ich kann seine Verantwortungsbewusstsein und Kompetenz in seiner Arbeit bestätigen, ebenso wie seine Teamfähigkeit und Integration in das Team, hauptsächlich in seiner Rolle als Computerprogrammierer. Ich glaube, dass Francisco in der Lage sein wird, die ihm zugewiesenen Aufgaben zu erfüllen, und deshalb empfehle ich ihn.',
     eduardoBernabe_desc:

@@ -42,6 +42,7 @@ export default {
     technologies: 'Techs'
   },
   [Sections.Recognitions]: {
+    seeCV: 'See Curriculum Vitae',
     rocioLanzas_desc:
       'I can attest to his responsability and competence in his work, as well as his teamwork and integration within the team, mainly working as a computer programmer. I believe that Francisco will be able to fulfill the assigned tasks, and that is why I recommend him.',
     eduardoBernabe_desc:
