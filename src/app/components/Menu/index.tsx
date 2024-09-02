@@ -1,9 +1,12 @@
+import { Sections } from '@states/sections';
 import './styles.scss';
 import { useIntersectionObserver } from '@hooks/useIntersectionObserver';
+import { useLanguage } from '@hooks/useLanguage';
 
 const sections = ['about', 'experience', 'projects', 'recognitions'];
 
 export const Menu = () => {
+  const { txt } = useLanguage(Sections.Menu);
   const active = useIntersectionObserver(sections);
 
   const handleClick = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -29,7 +32,7 @@ export const Menu = () => {
         href="/#about"
         onClick={handleClick}
       >
-        About
+        {txt.about}
       </a>
 
       <a
@@ -37,7 +40,7 @@ export const Menu = () => {
         href="/#experience"
         onClick={handleClick}
       >
-        Experience
+        {txt.experience}
       </a>
 
       <a
@@ -45,7 +48,7 @@ export const Menu = () => {
         href="/#projects"
         onClick={handleClick}
       >
-        Projects
+        {txt.projects}
       </a>
 
       <a
@@ -53,7 +56,7 @@ export const Menu = () => {
         href="/#recognitions"
         onClick={handleClick}
       >
-        Recognitions
+        {txt.recognitions}
       </a>
     </div>
   );
