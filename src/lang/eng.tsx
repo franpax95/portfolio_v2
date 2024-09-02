@@ -3,7 +3,7 @@ import { Sections } from '@states/sections';
 export default {
   [Sections.Sidebar]: {
     title: 'Francisco Navarro',
-    subtitle: 'Frontend Developer',
+    subtitle: 'Front-End Developer',
     description:
       'Crafting digital experiences with pixels and code, where design meets interaction.'
   },
@@ -23,15 +23,15 @@ export default {
   },
   [Sections.Experience]: {
     esail1_title: 'ESAIL IT SOLUTIONS',
-    esail1_subtitle: 'Fullstack Web Developer',
+    esail1_subtitle: 'Full-Stack Web Developer',
     esail1_desc: `In my first role at ESAIL IT Solutions, I developed solutions primarily using Angular and Ionic, handling projects from initial analysis through to final documentation, within a Kanban-driven workflow. I also initiated and developed internal projects in React. My responsibilities included direct client communication, onboarding and training new team members, and promoting the adoption of new technologies and best practices.`,
     esail1_duration: 'December 2020 - May 2023',
     kubide_title: 'Kubide',
-    kubide_subtitle: 'Frontend Web Developer',
+    kubide_subtitle: 'Front-End Web Developer',
     kubide_desc: `At Kubide, I focused on developing cross-platform applications using Ionic Angular and contributed to projects in Next.js (React). Organised under the SCRUM agile methodology, I played a key role in performance optimisation and enhancing solutions, with a particular emphasis on improving user interfaces and overall user experience.`,
     kubide_duration: 'May 2023 - November 2023',
     esail2_title: 'ESAIL IT SOLUTIONS',
-    esail2_subtitle: 'Frontend Web Developer',
+    esail2_subtitle: 'Front-End Web Developer',
     esail2_desc: `At ESAIL IT Solutions, I led the Front-End team, focusing primarily on projects developed with Angular. My responsibilities included overseeing the quality control of my team's code and ensuring it met high standards. I implemented new work methodologies and technologies to enhance productivity and foster a collaborative work culture, with a strong emphasis on Kanban for organisational efficiency. Additionally, I was involved in onboarding and training new team members, ensuring they integrated smoothly and developed the necessary skills. I also contributed to project analysis, playing a vital role in the strategic planning and execution of our development projects.`,
     esail2_duration: 'November 2023 - July 2024'
   },
