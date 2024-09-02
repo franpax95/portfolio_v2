@@ -76,7 +76,7 @@ const projects: Array<IProject> = [
 
 export const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <ProjectsTable projects={projects} />
     </div>
   );

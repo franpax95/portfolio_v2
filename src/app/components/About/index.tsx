@@ -42,7 +42,7 @@ export const About = () => {
   const { txt } = useLanguage(Sections.About);
 
   return (
-    <div className="about">
+    <div className="about" id="about">
       <p className="about__paragraph">{replaceTextWithLinks(txt.first)}</p>
       <p className="about__paragraph">{replaceTextWithLinks(txt.second)}</p>
       <p className="about__paragraph">{replaceTextWithLinks(txt.third)}</p>

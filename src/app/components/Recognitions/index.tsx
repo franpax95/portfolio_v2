@@ -44,7 +44,7 @@ export const Recognitions = () => {
   }, [txt]);
 
   return (
-    <div className="recognitions">
+    <div className="recognitions" id="recognitions">
       <div className="recognitions__recommendations">
         {recommendations.map((rec, key) => (
           <RecommendationCard key={key} data={rec} />

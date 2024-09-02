@@ -10,7 +10,7 @@ export const Experience = () => {
   const { txt } = useLanguage(Sections.Experience);
 
   return (
-    <div className="experience">
+    <div className="experience" id="experience">
       <ExperienceCard
         title={txt.esail2_title}
         subtitle={txt.esail2_subtitle}
