@@ -18,10 +18,12 @@
     width: calc(100% - 8px);
   }
 
-  &:hover::after {
-    bottom: -2px;
-    height: 100%;
-    left: 0;
-    width: 100%;
+  @include tablet {
+    &:hover::after {
+      bottom: -2px;
+      height: 100%;
+      left: 0;
+      width: 100%;
+    }
   }
 }
