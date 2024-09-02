@@ -16,8 +16,8 @@ export const ProjectsTable = ({ projects }: ProjectsTableProps) => {
       <div className="projects-table__header">
         <div className="projects-table__col">{txt.year}</div>
         <div className="projects-table__col">{txt.project}</div>
-        <div className="projects-table__col">{txt.madeAt}</div>
-        <div className="projects-table__col">{txt.technologies}</div>
+        <div className="projects-table__col projects-table__col--made-at">{txt.madeAt}</div>
+        <div className="projects-table__col projects-table__col--stack">{txt.technologies}</div>
       </div>
 
       {projects.map((project, key) => (
@@ -28,7 +28,7 @@ export const ProjectsTable = ({ projects }: ProjectsTableProps) => {
           <div className="projects-table__col" title={project.name}>
             {project.name}
           </div>
-          <div className="projects-table__col" title={project.job}>
+          <div className="projects-table__col projects-table__col--made-at" title={project.job}>
             {project.job}
           </div>
           <div className="projects-table__col projects-table__col--stack">

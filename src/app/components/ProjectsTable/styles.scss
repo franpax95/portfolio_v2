@@ -13,15 +13,11 @@
     box-shadow: 0 0.8rem 3.2rem 0 rgb(31 38 135 / 37%);
     display: grid;
     gap: 0.5rem;
-    grid-template-columns: 5rem 2.5fr 1fr 4fr;
+    grid-template-columns: 5rem 1fr 1.5fr;
     margin-bottom: 1rem;
     min-height: 9rem;
     padding: 1rem 0.5rem;
     transition: background-color var(--normal);
-  }
-
-  &__row:hover {
-    background: rgb(255 255 255 / 15%);
   }
 
   &__row:last-of-type {
@@ -33,7 +29,10 @@
     overflow: hidden;
     text-align: left;
     text-overflow: ellipsis;
-    white-space: nowrap;
+
+    &--made-at {
+      display: none;
+    }
 
     &--stack {
       display: grid;
@@ -47,6 +46,28 @@
 
     .projects-table__col {
       font-weight: bold;
+      white-space: nowrap;
+    }
+  }
+
+  @include mobile {
+    &__header,
+    &__row {
+      grid-template-columns: 5rem 2.5fr 1fr 4fr;
+    }
+
+    &__col--made-at {
+      display: block;
+    }
+  }
+
+  @include tablet {
+    &__row:hover {
+      background: rgb(255 255 255 / 15%);
+    }
+
+    &__col {
+      white-space: nowrap;
     }
   }
 }
