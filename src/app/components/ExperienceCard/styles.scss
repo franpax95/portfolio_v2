@@ -33,14 +33,6 @@
     width: 0.9rem;
   }
 
-  &:hover {
-    backdrop-filter: blur(0.95rem);
-    background: rgb(255 255 255 / 15%);
-    border-color: rgb(255 255 255 / 18%);
-    box-shadow: 0 0.8rem 3.2rem 0 rgb(31 38 135 / 37%);
-    cursor: pointer;
-  }
-
   > * {
     text-align: left;
   }
@@ -52,10 +44,6 @@
   &__subtitle {
     font-size: var(--fs-md);
     margin-bottom: 0.25rem;
-
-    @include tablet {
-      margin-bottom: 1rem;
-    }
   }
 
   &__desc {
@@ -67,13 +55,6 @@
     font-size: var(--fs-sm);
     font-style: italic;
     margin-bottom: 1rem;
-
-    @include tablet {
-      margin-bottom: 0;
-      position: absolute;
-      right: 2rem;
-      top: 2.5rem;
-    }
   }
 
   &__badges {
@@ -81,5 +62,26 @@
     gap: 0.75rem;
     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
     width: 100%;
+  }
+
+  @include tablet {
+    &:hover {
+      backdrop-filter: blur(0.95rem);
+      background: rgb(255 255 255 / 15%);
+      border-color: rgb(255 255 255 / 18%);
+      box-shadow: 0 0.8rem 3.2rem 0 rgb(31 38 135 / 37%);
+      cursor: pointer;
+    }
+
+    &__subtitle {
+      margin-bottom: 1rem;
+    }
+
+    &__duration {
+      margin-bottom: 0;
+      position: absolute;
+      right: 2rem;
+      top: 2.5rem;
+    }
   }
 }
