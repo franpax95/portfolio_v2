@@ -1,4 +1,10 @@
 .about {
+  margin-top: 2rem;
+
+  @include tablet {
+    margin-top: 0;
+  }
+
   &__paragraph {
     font-size: var(--fs-md);
     line-height: 1.5;
