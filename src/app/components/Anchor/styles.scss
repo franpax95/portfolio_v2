@@ -9,16 +9,24 @@
 
   &::after {
     background: rgb(255 255 255 / 25%);
-    bottom: -6px;
+    bottom: -2px;
     content: '';
-    height: calc(100% - 8px);
-    left: 12px;
+    height: 100%;
+    left: 0;
     position: absolute;
-    transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
-    width: calc(100% - 8px);
+    width: 100%;
   }
 
   @include tablet {
+    &::after {
+      bottom: -6px;
+      height: calc(100% - 8px);
+      left: 12px;
+      position: absolute;
+      transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+      width: calc(100% - 8px);
+    }
+
     &:hover::after {
       bottom: -2px;
       height: 100%;
