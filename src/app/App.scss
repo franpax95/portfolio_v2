@@ -1,5 +1,5 @@
 .app {
-  --initial-transition-distance: 3.5rem;
+  --initial-transition-distance: 5rem;
 
   display: flex;
   flex-direction: column;
@@ -7,6 +7,7 @@
   justify-content: space-between;
   margin: 0 auto;
   max-width: 120rem;
+  overflow-x: hidden;
   padding: var(--app-padding-ver) var(--app-padding-hor);
   position: relative;
 
