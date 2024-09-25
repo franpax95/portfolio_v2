@@ -7,12 +7,12 @@
   justify-content: space-between;
   margin: 0 auto;
   max-width: 120rem;
-  overflow-x: hidden;
   padding: var(--app-padding-ver) var(--app-padding-hor);
   position: relative;
 
   @include tablet {
     flex-direction: row;
+    width: 90%;
 
     &__sidebar,
     &__main {
