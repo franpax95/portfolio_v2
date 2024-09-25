@@ -1,5 +1,5 @@
 .app {
-  --initial-transition-distance: 2.5rem;
+  --initial-transition-distance: 3.5rem;
 
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
     &__sidebar,
     &__main {
       opacity: 0;
-      transition: transform var(--slow) ease, opacity var(--very-slow) ease;
+      transition: transform var(--very-slow) ease-out, opacity var(--very-slow) ease-out;
     }
 
     &__sidebar {
