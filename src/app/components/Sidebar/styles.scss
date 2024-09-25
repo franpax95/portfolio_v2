@@ -20,6 +20,13 @@
     text-align: left;
   }
 
+  &__title,
+  &__subtitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   &__img-wrapper {
     align-items: center;
     display: flex;
