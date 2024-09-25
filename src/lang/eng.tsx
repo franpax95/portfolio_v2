@@ -22,7 +22,7 @@ export default {
       'As for my skills, I have extensive professional experience with Angular. However, my favourite framework will always be React or solutions based on it, like Next for SSR. Whenever I have the opportunity, I choose it as my first option, both for personal and corporate projects. \nRegarding mobile, I have developed cross-platform applications with Ionic, both on Android and iOS, from the old Cordova to the new Capacitor. \nOn the backend, I like to develop my solutions in Laravel (PHP) with MySQL or PostgreSQL. But I also have experience with applications built in Node. \nI used to use Webpack, but now Vite has become my preferred bundler.'
   },
   [Sections.Experience]: {
-    esail1_title: 'ESAIL IT SOLUTIONS',
+    esail1_title: 'ESAIL',
     esail1_subtitle: 'Full-Stack Web Developer',
     esail1_desc: `In my first role at ESAIL IT Solutions, I developed solutions primarily using Angular and Ionic, handling projects from initial analysis through to final documentation, within a Kanban-driven workflow. I also initiated and developed internal projects in React. My responsibilities included direct client communication, onboarding and training new team members, and promoting the adoption of new technologies and best practices.`,
     esail1_duration: 'December 2020 - May 2023',
@@ -30,7 +30,7 @@ export default {
     kubide_subtitle: 'Front-End Web Developer',
     kubide_desc: `At Kubide, I focused on developing cross-platform applications using Ionic Angular and contributed to projects in Next.js (React). Organised under the SCRUM agile methodology, I played a key role in performance optimisation and enhancing solutions, with a particular emphasis on improving user interfaces and overall user experience.`,
     kubide_duration: 'May 2023 - November 2023',
-    esail2_title: 'ESAIL IT SOLUTIONS',
+    esail2_title: 'ESAIL',
     esail2_subtitle: 'Front-End Web Developer',
     esail2_desc: `At ESAIL IT Solutions, I led the Front-End team, focusing primarily on projects developed with Angular. My responsibilities included overseeing the quality control of my team's code and ensuring it met high standards. I implemented new work methodologies and technologies to enhance productivity and foster a collaborative work culture, with a strong emphasis on Kanban for organisational efficiency. Additionally, I was involved in onboarding and training new team members, ensuring they integrated smoothly and developed the necessary skills. I also contributed to project analysis, playing a vital role in the strategic planning and execution of our development projects.`,
     esail2_duration: 'November 2023 - July 2024'

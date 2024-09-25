@@ -21,7 +21,7 @@ export default {
     third: `En cuanto a mis conocimientos, profesionalmente tengo una extensa experiencia en Angular. Sin embargo, mi framework favorito siempre será React o soluciones basadas como Next para el SSR. Siempre que tengo la ocasión lo elijo como mi primera opción, tanto en proyectos personales como corporativos. \nEn cuanto a mobile, he desarrollado aplicaciones cross-platform con Ionic, tanto en Android como en iOS, desde el antiguo Cordova hasta el nuevo Capacitor. \nEn el territorio Backend, me gusta desarrollar mis soluciones en Laravel (PHP), con MySQL o PostgreSQL. Pero también tengo experiencia con aplicaciones hechas en Node. \nAntes Webpack, pero ahora Vite se ha convertido en mi opción como empaquetador.`
   },
   [Sections.Experience]: {
-    esail1_title: 'ESAIL IT SOLUTIONS',
+    esail1_title: 'ESAIL',
     esail1_subtitle: 'Full-Stack Web Developer',
     esail1_desc: `En mi primer puesto en ESAIL IT Solutions, desarrollé soluciones principalmente utilizando Angular e Ionic, gestionando proyectos desde el análisis inicial hasta la documentación final, dentro de un flujo de trabajo impulsado por Kanban. También inicié y desarrollé proyectos internos en React. Mis responsabilidades incluían la comunicación directa con los clientes, la incorporación y formación de nuevos miembros del equipo, y la promoción de la adopción de nuevas tecnologías y mejores prácticas.`,
     esail1_duration: 'Diciembre 2020 - Mayo 2023',
@@ -29,7 +29,7 @@ export default {
     kubide_subtitle: 'Front-End Web Developer',
     kubide_desc: `En Kubide, me enfoqué en desarrollar aplicaciones multiplataforma utilizando Ionic Angular y contribuí a proyectos en Next.js (React). Organizado bajo la metodología ágil SCRUM, desempeñé un papel clave en la optimización del rendimiento y la mejora de soluciones, con un énfasis particular en mejorar las interfaces de usuario y la experiencia general del usuario.`,
     kubide_duration: 'Mayo 2023 - Noviembre 2023',
-    esail2_title: 'ESAIL IT SOLUTIONS',
+    esail2_title: 'ESAIL',
     esail2_subtitle: 'Front-End Web Developer',
     esail2_desc: `En ESAIL IT Solutions, lideré el equipo de Front-End, enfocándome principalmente en proyectos desarrollados con Angular. Mis responsabilidades incluían supervisar el control de calidad del código de mi equipo y asegurarme de que cumpliera con altos estándares. Implementé nuevas metodologías de trabajo y tecnologías para mejorar la productividad y fomentar una cultura de trabajo colaborativa, con un fuerte énfasis en Kanban para la eficiencia organizativa. Además, participé en la incorporación y capacitación de nuevos miembros del equipo, asegurando que se integraran sin problemas y desarrollaran las habilidades necesarias. También contribuí al análisis de proyectos, desempeñando un papel vital en la planificación estratégica y la ejecución de nuestros proyectos de desarrollo.`,
     esail2_duration: 'Noviembre 2023 - Julio 2024'
