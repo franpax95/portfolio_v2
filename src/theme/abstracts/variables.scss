@@ -54,6 +54,7 @@ $black: #2b2b2b;
   --danger-disabled: #{mix($danger, $white, 50%)};
 
   // Times (in ms)
+  --very-slow: 1000ms;
   --slow: 500ms;
   --normal: 250ms;
   --fast: 150ms;
